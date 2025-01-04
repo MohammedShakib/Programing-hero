@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission WebDEV</title>
+    <link rel="shortcut icon" href="img/code02.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .form-title {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        select,
+        input[type="date"] {
+            padding: 5px;
+            font-size: 14px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/moblie.png" alt="Error 404" style="height: 50px; width: 50px;">
+    <h1>Welcome to WebDEV</h1>
+    <form>
+        <div class="login-container">
+            <input type="email" name="email" id="email" placeholder="Your email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <h2 class="form-title">Fill up the form:</h2>
+    <form>
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </li>
+            <li>
+                <label for="father_name">Father's Name:</label>
+                <input type="text" name="father_name" id="father_name">
+            </li>
+            <li>
+                <label for="mother_name">Mother's Name:</label>
+                <input type="text" name="mother_name" id="mother_name">
+            </li>
+            <li>
+                <label for="present_address">Present Address:</label>
+                <input type="text" name="present_address" id="present_address">
+            </li>
+            <li>
+                <label for="permanent_address">Permanent Address:</label>
+                <input type="text" name="permanent_address" id="permanent_address">
+            </li>
+            <li>
+                <label for="religion">Your Religion:</label>
+                <select name="religion" id="religion">
+                    <option value="Islam">Islam</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Not to Say">Not to Say</option>
+                </select>
+            </li>
+            <li>
+                <label>Are You Ready to Join?</label>
+                <input type="radio" name="ready_to_join" id="ready_yes" value="Yes"> YES
+                <input type="radio" name="ready_to_join" id="ready_no" value="No"> NO
+            </li>
+            <li>
+                <label for="admission_date">Select the Date for Admission:</label>
+                <input type="date" name="admission_date" id="admission_date">
+            </li>
+        </ul>
+    </form>
+    <a href="justvisitedpage.html" target="_blank">About Us</a>
+</body>
+</html>
