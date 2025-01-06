@@ -1,0 +1,33 @@
+.BDR {
+    border-image-width: 10px;
+    display: block; 
+    margin: auto;
+}
+
+#F2009 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+    width: fit-content;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(133, 136, 94);
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+section {
+    margin: 20px auto;
+    width: 60%; 
+    text-align: left; 
+}
