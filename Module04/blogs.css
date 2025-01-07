@@ -22,8 +22,10 @@ body {
     margin-bottom: auto;
 }
 
-nav > ul > li {
-    display: inline;
+nav > ul li {
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
 }
 
 section {

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="from.html">From</a></li>
+                <li><a href="html5.html">Html5</a></li>
+                <li><a href="myblogs.html">MyBlogs</a>
+                    <ul class="dropdown">
+                        <li><a href="from.html">From</a></li>
+                        <li><a href="html5.html">Html5</a></li>
+                        <li><a href="myblogs.html">MyBlogs</a></li>
+                        <li><a href="htmltable.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="htmltable.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Html Table</h1>
+    <table>
+        <caption>Salary Table</caption>
+        <thead>
+                <th>No</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Omi</td>
+                <td>member</td>
+                <td>1000bdt</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sami</td>
+                <td>member</td>
+                <td>1000bdt</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tanvir</td>
+                <td>non-member</td>
+                <td>10000bdt</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ashiq</td>
+                <td>non-member</td>
+                <td>5000bdt</td>
+            </tr>
+    </main>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Number Of member:02</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
