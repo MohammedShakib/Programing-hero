@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight:800;
+    font-size: 45px;
+}
+.text-mary{
+    color: #FD6E0A;
+    
+}
+nav ul li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.dark-2{
+    color: #474747;
+}
+.hiremebtn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-hi{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-name{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-pic{
+    width: 580px;
+}
