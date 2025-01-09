@@ -101,14 +101,18 @@ text-align: center;
     gap: 20px; /* Adds space between cards */
 }
 
-.card{
+.card {
     max-width: 250px;
+    height: 400px; /* Ensures uniform height */
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
 }
+
+
 .card .imgbox{
     width: 250px;
 }
@@ -120,7 +124,7 @@ text-align: center;
     background: rgba(82, 195, 3, 0.15);
 padding: 10px 25px 10px 25px;
 }
-#cardbox .container.div-button{
+#cardbox .container.button{
     text-align: center;
 }
 #cardbox .container .button{
